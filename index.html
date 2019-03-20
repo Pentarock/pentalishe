@@ -431,18 +431,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-sm-5">
-            <form>
+            <form action="process.php" method="POST">
               <div class="form-group">
                 <label>Name: </label>
-                <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
+                <input class="form-control" type="text" name="name" value="" placeholder="Enter Name">
               </div>
               <div class="form-group">
                 <label>Email: </label>
-                <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
+                <input class="form-control" type="text" name="email" value="" placeholder="Enter Email">
               </div>
               <div class="form-group">
                 <label>Message: </label>
-                <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
+                <textarea class="form-control" name="comment" value="Submit" placeholder="Enter Message"></textarea>
               </div>
               <button class="btn btn-default">Submit</button>
             </form>
