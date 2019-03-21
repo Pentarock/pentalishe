@@ -57,7 +57,7 @@ p{
     font-weight: 600;
 }
 #showcase h1{
-  font-size:50px;
+ 
   margin-bottom:20px;
 }
 
@@ -77,6 +77,13 @@ p{
     
 }
 
+#banner .showonmobile1{
+    font-size:8px;
+}
+
+@media(min-width:601px) {
+    .showonmobile1 {display:none;}
+}
 
 #showcase{
     margin-top:50px;
@@ -88,11 +95,29 @@ p{
 }
 
 #showcase .showcase-left{
-  
+  margin-bottom: 60px;
 }
 
 #showcase .showcase-right{
   
+}
+
+@media screen and (min-width: 601px) {
+  div.heading {
+    margin-bottom:20px;
+    font-size: 50px;
+    font-weight: 550;
+    line-height:60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.heading {
+    margin-bottom:20px;
+    font-size: 35px;
+    font-weight: 550;
+    line-height:40px;
+  }
 }
 
 #testimonial{
